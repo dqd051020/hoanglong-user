@@ -1,0 +1,36 @@
+// khoi tao tu dau
+tao project React bang tool NextJS
+
+// tao du an
+npx create-next-app@latest
+
+// start project
+npm run dev
+
+// xem cac thu vien dang su dung
+file package.json => dependencies
++ dependencies: cac thu vien chinh se su dung
++ devDependencies: cac thu vien su dung khi chay o moi truong phat trien (localhost)
+
+// sau do can cai cac thu vien/library de phat trien du an
+npm install ten_thu_vien
+vi du cai thu vien Ant design de xay dung UI, thi chay lenh
+npm install antd
+
+"@chakra-ui/next-js": "^2.2.0",  => xay dung giao dien nguoi dung
+"@chakra-ui/react": "^2.8.2",  => xay dung giao dien nguoi dung
+"@emotion/react": "^11.11.1", => xay dung giao dien nguoi dung khi cai Chakra Ui tu dong co
+"@emotion/styled": "^11.11.0", => xay dung giao dien nguoi dung khi cai Chakra Ui tu dong co
+"@tanstack/react-query": "^5.28.6",  => goi API
+"axios": "^1.7.2",  => goi API
+"dayjs": "^1.11.10",  => thu vien ho tro dinh dang ngay thang nam
+"framer-motion": "^10.16.16", => xay dung giao dien nguoi dung khi cai Chakra Ui tu dong co
+"lodash": "^4.17.21",   => giup code tot hon
+"next": "14.0.4", // la thu vien (hieu ngam la Framwork cua React)
+"react": "^18",
+"react-dom": "^18",
+"react-hook-form": "^7.51.1",  => dung form
+"react-icons": "^4.12.0",   => dung icon
+"react-photo-view": "^1.2.4",  => xem anh
+"react-select": "^5.8.0",  => xay dung UI
+"recoil": "^0.7.7" => quan ly trang thai (state) du an
