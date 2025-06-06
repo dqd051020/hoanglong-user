@@ -43,7 +43,7 @@ const HomeSlider: React.FC = () => {
       <Flex w="full" h={{ base: '200px', md: '300px', lg: '350px' }}>
         <SliderItem
           href="/ve-chung-toi"
-          image="/images/banner-0.png"
+          image="/images/banner-0.PNG"
           priority
         />
       </Flex>
