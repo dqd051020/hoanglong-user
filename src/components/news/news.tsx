@@ -127,7 +127,7 @@ const NewsComponent: React.FC = () => {
             title: 'Câu chuyện sản phẩm miến khoai lang Hoàng Long',
             description:
               'Miến khoai lang Hoàng Long được chế biến 100% từ củ khoai lang tươi, không pha bột sắn, không sử dụng chất tẩy trắng. Sản phẩm giữ nguyên màu sắc tự nhiên, đảm bảo vệ sinh an toàn thực phẩm và tốt cho tiêu hóa.',
-            date: '02/06/2025',
+            date: '05/10/2025',
             image: '/images/mien1.jpg',
           },
           {
@@ -135,7 +135,7 @@ const NewsComponent: React.FC = () => {
             title: 'Câu chuyện sản phẩm miến dong Hoàng Long',
             description:
               'Miến dong Hoàng Long được chế biến 100% từ củ dong tươi, không pha bột sắn, không sử dụng chất tẩy trắng. Sản phẩm giữ nguyên màu sắc tự nhiên, đảm bảo vệ sinh an toàn thực phẩm và tốt cho tiêu hóa.',
-            date: '02/06/2025',
+            date: '05/10/2025',
             image: '/images/mien-dong.jpg',
           },
           {
