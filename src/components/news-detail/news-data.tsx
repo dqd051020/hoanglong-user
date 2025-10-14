@@ -2,7 +2,7 @@ export const newsData = [
   {
     slug: "cau-chuyen-mien-khoai-lang",
     title: "Câu chuyện sản phẩm miến khoai lang Hoàng Long",
-    date: "02/06/2025",
+    date: "05/10/2025",
     content: `
       Yên Quang (nay là xã Nho Quan) một vùng đất được thiên nhiên ban tặng nhiều lợi thế để tạo nên các sản vật thơm ngon. Từ bao đời nay cánh đồng xã Yên Quang được thừa hưởng nguồn nước từ cánh rừng Cúc Phương tươi mát, giàu khoáng chất, không khí trong lành, ánh nắng chan hòa tạo nên chất lượng khoai lang mang hương vị đặc biệt, đó là sự giao thoa, kết tinh hài hòa của đất trời dưới bàn tay cần cù, chịu khó của người nông dân. Nguồn nguyên liệu đó được kết hợp với nguồn nước ngầm tinh khiết tạo nên sợi miến khoai lang Hoàng Long mềm mại, dai ngon tròn vị, mang hương vị ngọt lành của đất mẹ.
 
@@ -16,7 +16,7 @@ Miến khoai lang Hoàng Long mang hương vị đậm đà, thanh mát, đem đ
   {
     slug: "cau-chuyen-mien-dong",
     title: "Câu chuyện sản phẩm miến dong Hoàng Long",
-    date: "02/06/2025",
+    date: "05/10/2025",
     content: `
       Nằm dưới chân rừng quốc gia Cúc Phương - lá phổi xanh của miền Bắc, xã Cúc Phương (tỉnh Ninh Bình) là một miền quê tươi đẹp, nơi đất trời giao hòa, khí hậu mát lành quanh năm, đất đai màu mỡ và nguồn nước ngầm tinh khiết chảy ra từ lòng núi đá. Chính mảnh đất ấy đã tạo nên những củ dong riềng tươi ngon, giàu dưỡng chất, là nguồn nguyên liệu quý để tạo nên miến dong Hoàng Long thơm ngon, thuần khiết.
 
