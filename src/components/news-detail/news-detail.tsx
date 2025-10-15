@@ -44,6 +44,59 @@
 // };
 
 // export default NewsDetailComponent;
+
+// 2.
+// 'use client';
+
+// import { Box, Flex, Icon, Text } from '@chakra-ui/react';
+// import { usePathname } from 'next/navigation';
+// import { FaCalendarAlt } from 'react-icons/fa';
+// import Breadcrumb from '../common/breadcrumb';
+// import { newsData } from './news-data';
+
+// const NewsDetailComponent: React.FC<{ slug: string }> = ({ slug }) => {
+//   const pathname = usePathname();
+//   const article = newsData.find((item) => item.slug === slug);
+
+//   if (!article) {
+//     return (
+//       <Box pt={5}>
+//         <Text>Không tìm thấy bài viết</Text>
+//       </Box>
+//     );
+//   }
+
+//   return (
+//     <Box pt={5}>
+//       <Breadcrumb
+//         items={[
+//           { title: 'Tin tức', href: '/tin-tuc' },
+//           { title: article.title, href: pathname, isActive: true }
+//         ]}
+//       />
+
+//       <Box mt={{ xs: 5, lg: 10 }}>
+//         <Text fontWeight={700} fontSize={{ xs: 18, md: 20, lg: 22 }}>
+//           {article.title}
+//         </Text>
+
+//         <Flex align="center" gap={2} mt={3}>
+//           <Icon as={FaCalendarAlt} color="#828282" fontSize={14} />
+//           <Text as="span" fontWeight={500} mt={0.5}>
+//             {article.date}
+//           </Text>
+//         </Flex>
+
+//         <Text fontWeight={500} lineHeight="22px" mt={{ xs: 6, lg: 8 }} fontSize={14}>
+//           {article.content}
+//         </Text>
+//       </Box>
+//     </Box>
+//   );
+// };
+
+// export default NewsDetailComponent;
+
 'use client';
 
 import { Box, Flex, Icon, Text } from '@chakra-ui/react';
@@ -85,14 +138,21 @@ const NewsDetailComponent: React.FC<{ slug: string }> = ({ slug }) => {
           </Text>
         </Flex>
 
-        <Text fontWeight={500} lineHeight="22px" mt={{ xs: 6, lg: 8 }} fontSize={14}>
-          {article.content}
-        </Text>
+        {/* Render nội dung có HTML + ảnh */}
+        <Box
+          mt={{ xs: 6, lg: 8 }}
+          fontSize={14}
+          lineHeight="22px"
+          fontWeight={500}
+          className="prose max-w-none"
+          dangerouslySetInnerHTML={{ __html: article.content }}
+        />
       </Box>
     </Box>
   );
 };
 
 export default NewsDetailComponent;
+
 
 
