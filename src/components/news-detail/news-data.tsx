@@ -11,7 +11,7 @@ export const newsData = [
 // HTX Hoàng Long xác định rõ việc giúp nông dân tiêu thụ sản phẩm không chỉ là trách nhiệm mà còn là hướng đi bền vững để cùng nhau phát triển. Khoai lang Yên Quang có chất lượng thơm, dẻo, phù hợp để chế biến thực phẩm sạch, an toàn. Đầu tư chế biến sâu, nâng cao giá trị nông sản không dừng lại ở khâu thu mua, HTX Hoàng Long đã đầu tư dây chuyền chế biến các sản phẩm từ khoai lang như miến khoai lang sợi rút, bột khoai lang nguyên chất, tinh bột khoai lang. Các sản phẩm này đều đảm bảo tiêu chí an toàn thực phẩm: không phẩm màu, không chất bảo quản, không hóa chất độc hại hướng tới mục tiêu “Sản phẩm vì sức khỏe người tiêu dùng”. Các sản phẩm mang thương hiệu Hoàng Long ngày càng được ưa chuộng tại thị trường trong nước.</p>
 // <div className="my-6 text-center">
 //   <img
-//     src="https://drive.google.com/uc?export=view&id=15qAN9M_bPWbtC1_CEhXp1eZSc9EL6_Wq"
+//     src="https://picsum.photos/600/400"
 //     alt="Thu mua khoai lang"
 //     className="rounded-lg shadow-md mx-auto max-w-2xl"
 //   />
