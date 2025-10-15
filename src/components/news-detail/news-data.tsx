@@ -1,4 +1,39 @@
 export const newsData = [
+   {
+    slug: "vu-khoai-lang-duoc-mua",
+    title: "Vụ khoai lang “được mùa, được giá” của người dân xã Yên Quang",
+    date: "10/10/2025",
+    content: `
+      Trong thời gian qua, Hợp tác xã sản xuất và tiêu thụ nông sản Hoàng Long (HTX Hoàng Long) đã đẩy mạnh tiêu thụ nông sản cho người dân xã Yên Quang, huyện Nho Quan. Với nỗ lực không ngừng trong việc phát triển chuỗi giá trị nông sản sạch, HTX đã thu mua và tiêu thụ hơn 100 tấn khoai lang từ bà con nông dân, góp phần tích cực vào việc nâng cao thu nhập và cải thiện đời sống người dân địa phương.
+
+Khoai lang - một trong những cây trồng chủ lực tại Yên Quang thường xuyên đối mặt với tình trạng “được mùa mất giá” khi không có đầu ra ổn định. Trước thực trạng này, HTX Hoàng Long đã chủ động bao tiêu sản phẩm khoai lang cho bà con nông dân với giá hợp lý, ổn định nhờ đó thu nhập của người dân tăng rõ rệt, nhiều hộ gia đình có điều kiện mở rộng quy mô sản xuất và cải thiện đời sống.
+
+HTX Hoàng Long xác định rõ việc giúp nông dân tiêu thụ sản phẩm không chỉ là trách nhiệm mà còn là hướng đi bền vững để cùng nhau phát triển. Khoai lang Yên Quang có chất lượng thơm, dẻo, phù hợp để chế biến thực phẩm sạch, an toàn. Đầu tư chế biến sâu, nâng cao giá trị nông sản không dừng lại ở khâu thu mua, HTX Hoàng Long đã đầu tư dây chuyền chế biến các sản phẩm từ khoai lang như miến khoai lang sợi rút, bột khoai lang nguyên chất, tinh bột khoai lang. Các sản phẩm này đều đảm bảo tiêu chí an toàn thực phẩm: không phẩm màu, không chất bảo quản, không hóa chất độc hại hướng tới mục tiêu “Sản phẩm vì sức khỏe người tiêu dùng”. Các sản phẩm mang thương hiệu Hoàng Long ngày càng được ưa chuộng tại thị trường trong nước.
+<div className="my-6 text-center">
+  <img
+    src="https://drive.google.com/uc?export=view&id=15qAN9M_bPWbtC1_CEhXp1eZSc9EL6_Wq"
+    alt="Thu mua khoai lang"
+    className="rounded-lg shadow-md mx-auto max-w-2xl"
+  />
+  <p className="text-sm text-gray-600 mt-2 italic">
+    Thu mua khoai lang tại HTX sản xuất và chế biến nông sản Hoàng Long
+  </p>
+</div>
+Với mô hình gắn kết sản xuất - chế biến - tiêu thụ nông sản, HTX Hoàng Long không chỉ góp phần thúc đẩy kinh tế nông thôn phát triển mà còn tạo niềm tin cho người nông dân vào hướng đi nông nghiệp sạch, bền vững. Định hướng phát triển bền vững HTX Hoàng Long đang từng bước hoàn thiện hệ thống sản xuất, đồng thời chú trọng đăng ký bảo hộ nhãn hiệu sản phẩm và xúc tiến thương mại qua các kênh thương mại điện tử, siêu thị, cửa hàng thực phẩm sạch. Những nỗ lực này không chỉ giúp sản phẩm nông sản địa phương nâng cao giá trị mà còn góp phần quảng bá thương hiệu nông nghiệp Ninh Bình nói chung.
+
+⸻
+
+Liên hệ:
+
+HTX sản xuất và chế biến nông sản Hoàng Long
+
+Xã Yên Quang, huyện Nho Quan, tỉnh Ninh Bình
+
+Hotline: 0911 911 558 – 0962 265 588
+
+
+    `,
+  },
   {
     slug: "cau-chuyen-mien-khoai-lang",
     title: "Câu chuyện sản phẩm miến khoai lang Hoàng Long",
