@@ -123,6 +123,14 @@ const NewsComponent: React.FC = () => {
       <Flex mt={10} gap={8} direction="column">
         {[
           {
+            slug: 'vu-lang-duoc-mua',
+            title: 'Vụ khoai lang “được mùa, được giá” của người dân xã Yên Quang',
+            description:
+              'Miến khoai lang Hoàng Long được chế biến 100% từ củ khoai lang tươi, không pha bột sắn, không sử dụng chất tẩy trắng. Sản phẩm giữ nguyên màu sắc tự nhiên, đảm bảo vệ sinh an toàn thực phẩm và tốt cho tiêu hóa.',
+            date: '10/10/2025',
+            image: '/images/mien1.jpg',
+          },
+          {
             slug: 'cau-chuyen-mien-khoai-lang',
             title: 'Câu chuyện sản phẩm miến khoai lang Hoàng Long',
             description:
