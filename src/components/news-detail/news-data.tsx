@@ -47,7 +47,7 @@ export const newsData = [
 
     <div style="text-align:center; margin: 20px 0;">
       <img
-        src="/images/thumua.png"
+        src="/images/thumua.PNG"
         alt="Thu mua khoai lang"
         style="border-radius:12px; max-width:100%; height:auto; box-shadow:0 4px 10px rgba(0,0,0,0.15);"
       />
