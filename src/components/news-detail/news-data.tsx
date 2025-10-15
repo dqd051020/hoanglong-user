@@ -1,6 +1,6 @@
 export const newsData = [
    {
-    slug: "vu-khoai-lang-duoc-mua",
+    slug: "vu-lang-duoc-mua",
     title: "Vụ khoai lang “được mùa, được giá” của người dân xã Yên Quang",
     date: "10/10/2025",
     content: `
