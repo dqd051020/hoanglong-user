@@ -197,7 +197,7 @@ const ProductItem: React.FC<any> = (props) => {
                   Xem chi tiết
                 </Button>
                 <Button colorScheme="green" onClick={onAddCart}>
-                 Đang thử nghiệm " Thêm vào giỏ hàng "
+                 Thêm vào giỏ hàng
                 </Button>
               </Flex>
             </Flex>
