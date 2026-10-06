@@ -87,7 +87,7 @@ const CartComponent: NextPage = () => {
             isDisabled={!cart.length}
             onClick={() => router.push('/thanh-toan')}
           >
-            Chức năng thanh toán đang bảo trì
+            Thanh toán
           </Button>
         </Flex>
       </Flex>
