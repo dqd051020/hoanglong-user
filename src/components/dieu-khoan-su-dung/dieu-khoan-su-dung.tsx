@@ -20,8 +20,8 @@ const DieukhoanComponent: React.FC = () => {
       color="gray.700"
       pt={5}
     >
-      <Breadcrumb items={[{ title: 'Điều khoản sử dụng', href: '/dieu-khoan-su-dung' }]} />
-      <PageSection title="Điều khoản sử dụng" />
+      <Breadcrumb items={[{ title: 'An toàn thông tin - Điều khoản sử dụng', href: '/dieu-khoan-su-dung' }]} />
+      <PageSection title="Điều khoản sử dụng và Bảo mật Thông tin" />
 
       <Text fontSize="lg" mt={4} mb={4} textAlign="justify">
         Khi truy cập và sử dụng website của Hợp tác xã Sản xuất và Chế biến Nông sản Hoàng Long (sau đây gọi là “HTX Hoàng Long”, “chúng tôi” hoặc “trang web”), bạn đồng ý tuân thủ các điều khoản sử dụng sau đây. Vui lòng đọc kỹ trước khi tiếp tục sử dụng dịch vụ.
@@ -48,6 +48,7 @@ const DieukhoanComponent: React.FC = () => {
         3. Bảo mật thông tin cá nhân
       </Text>
       <Text textAlign="justify" mb={2}>
+        
         Chúng tôi cam kết bảo vệ quyền riêng tư và thông tin cá nhân của người dùng. Mọi dữ liệu được thu thập chỉ nhằm mục đích liên hệ, cung cấp dịch vụ và sẽ không được chia sẻ cho bên thứ ba nếu không có sự đồng ý của bạn, trừ khi theo yêu cầu của pháp luật.
       </Text>
 

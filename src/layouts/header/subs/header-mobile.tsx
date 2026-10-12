@@ -145,7 +145,7 @@ const HeaderMobile: React.FC = () => {
               </Button>
             </Flex>
 
-            <Flex mt={5}>
+            {/* <Flex mt={5}>
               <Link href="/gio-hang" onClick={onClose}>
                 <Flex align="center" gap={2}>
                   <Icon as={IoCart} w={4} />
@@ -157,7 +157,7 @@ const HeaderMobile: React.FC = () => {
                   </Text>
                 </Flex>
               </Link>
-            </Flex>
+            </Flex> */}
 
             <Divider mt={5} />
 

@@ -35,11 +35,11 @@ const UserButton: React.FC = () => {
     //   icon: FaUserCircle,
     //   href: '/thong-tin-ca-nhan'
     // },
-    {
-      title: 'Đơn hàng của tôi',
-      icon: FaHistory,
-      href: '/don-hang-cua-toi'
-    },
+    // {
+    //   title: 'Đơn hàng của tôi',
+    //   icon: FaHistory,
+    //   href: '/don-hang-cua-toi'
+    // },
     {
       title: 'Sản phẩm yêu thích',
       icon: FaRegHeart,

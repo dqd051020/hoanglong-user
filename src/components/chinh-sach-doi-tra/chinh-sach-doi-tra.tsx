@@ -20,8 +20,8 @@ const ChinhsachComponent: React.FC = () => {
       color="gray.700"
       pt={5}
     >
-      <Breadcrumb items={[{ title: 'Chính sách đổi trả', href: '/chinh-sach-doi-tra' }]} />
-      <PageSection title="Chính sách đổi trả" />
+      <Breadcrumb items={[{ title: 'Chính sách đổi trả bảo hành vận chuyển', href: '/chinh-sach-doi-tra' }]} />
+      <PageSection title="Chính sách đổi trả bảo hành vận chuyển" />
 
       <Text fontSize="lg" mt={4} mb={4} textAlign="justify">
         HTX Hoàng Long cam kết cung cấp sản phẩm chất lượng và dịch vụ uy tín. Trong trường hợp quý khách không hài lòng hoặc sản phẩm có lỗi, chúng tôi hỗ trợ đổi trả theo chính sách dưới đây để đảm bảo quyền lợi người tiêu dùng.
@@ -68,9 +68,19 @@ const ChinhsachComponent: React.FC = () => {
         - Trường hợp khách thay đổi nhu cầu: quý khách vui lòng thanh toán phí vận chuyển.
       </Text>
 
-      {/* 5. Liên hệ hỗ trợ */}
+{/* 5. Quy trình vận chuyển */}
       <Text fontWeight="bold" fontSize="xl" mt={6} mb={2}>
-        5. Liên hệ hỗ trợ
+        5. Quy trình vận chuyển
+      </Text>
+      <Text textAlign="justify" mb={2}>
+        - HTX Hoàng Long hợp tác với các đơn vị vận chuyển uy tín để đảm bảo sản phẩm đến tay khách hàng nhanh chóng và an toàn.<br />
+        - Thời gian vận chuyển dự kiến từ <b>2–5 ngày làm việc</b> tùy vào địa chỉ nhận hàng.<br />
+        - Quý khách có thể theo dõi trạng thái đơn hàng thông qua mã vận đơn được cung cấp sau khi giao hàng.
+      </Text>
+
+      {/* 6. Liên hệ hỗ trợ */}
+      <Text fontWeight="bold" fontSize="xl" mt={6} mb={2}>
+        6. Liên hệ hỗ trợ
       </Text>
       <Text textAlign="justify" mb={2}>
         Mọi thắc mắc hoặc yêu cầu liên quan đến đổi trả, xin vui lòng liên hệ:

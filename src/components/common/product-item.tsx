@@ -123,7 +123,7 @@ const ProductItem: React.FC<any> = (props) => {
           </Box>
         </Link>
 
-        <Button
+        {/* <Button
           pos="absolute"
           bottom={2}
           right={2}
@@ -141,7 +141,7 @@ const ProductItem: React.FC<any> = (props) => {
           title="Thêm vào giỏ hàng"
         >
           <Icon as={IoCart} fontSize={18} color="#FFF" />
-        </Button>
+        </Button> */}
       </Box>
 
       <Drawer isOpen={isOpen} placement="left" size={{ xs: 'xs', md: 'md' }} onClose={onClose}>
@@ -195,10 +195,10 @@ const ProductItem: React.FC<any> = (props) => {
                   display={{ xs: 'none', md: 'flex' }}
                 >
                   Xem chi tiết
-                </Button>
+                {/* </Button>
                 <Button colorScheme="green" onClick={onAddCart}>
                  Thêm vào giỏ hàng
-                </Button>
+                </Button> */}
               </Flex>
             </Flex>
           </DrawerFooter>

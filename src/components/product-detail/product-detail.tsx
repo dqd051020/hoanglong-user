@@ -186,9 +186,9 @@ const ProductDetailComponent: React.FC<{ id: string }> = ({ id }) => {
 
             <Counter onChange={(data) => setCount(data)} />
 
-            <Button colorScheme="green" mt={10} onClick={onAddCart}>
+            {/* <Button colorScheme="green" mt={10} onClick={onAddCart}>
              Thêm vào giỏ hàng
-            </Button>
+            </Button> */}
           </Flex>
         </Flex>
       </Flex>

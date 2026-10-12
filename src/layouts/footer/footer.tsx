@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
 
   const SERVICES = [
     {
-      title: 'Thanh toán',
+      title: 'Thông tin thanh toán',
       href: '/thanh-toan'
     },
     {

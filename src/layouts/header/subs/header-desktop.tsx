@@ -78,7 +78,7 @@ const HeaderDesktop: React.FC = () => {
           <Search />
         </Flex>
 
-        <CartButton />
+        {/* <CartButton /> */}
 
         <Flex align="center" pos="absolute" right={userInfo ? '-150px' : '-190px'} top={0} bottom={0} my="auto">
           {userInfo ? (
