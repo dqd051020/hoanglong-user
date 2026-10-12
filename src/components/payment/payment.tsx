@@ -49,41 +49,41 @@ const ProductsInfo = () => {
   }, [cartFromApi]);
 
   return (
-    <Flex direction="column" id="product-info">
-      <Text fontWeight={600} fontSize={16}>
-        • Thông tin sản phẩm:
-      </Text>
+    // <Flex direction="column" id="product-info">
+    //   <Text fontWeight={600} fontSize={16}>
+    //     • Thông tin sản phẩm:
+    //   </Text>
 
-      <Box mt={10}>
-        <TableContainer>
-          <Table variant="simple">
-            <Thead>
-              <Tr>
-                <Th color="main.1">Sản phẩm</Th>
-                <Th color="main.1">Đơn giá</Th>
-                <Th color="main.1">Số lượng</Th>
-                <Th color="main.1">Thành tiền</Th>
-              </Tr>
-            </Thead>
-            <Tbody>
-              {cartFromApi.map((item) => (
-                <CartItem key={item.id} item={item} isConfirm />
-              ))}
-            </Tbody>
-          </Table>
-        </TableContainer>
-        <Flex direction="column" align="flex-end" gap={10} mt={8}>
-          <Flex gap={3} align="center">
-            <Text color="main.1" fontWeight={600} fontSize={18}>
-              Tổng cộng:
-            </Text>
-            <Text color="#1c78ce" fontWeight={700} fontSize={20} mt={0.5}>
-              {formatCurrency(totalPrice)}
-            </Text>
-          </Flex>
-        </Flex>
-      </Box>
-    </Flex>
+    //   <Box mt={10}>
+    //     <TableContainer>
+    //       <Table variant="simple">
+    //         <Thead>
+    //           <Tr>
+    //             <Th color="main.1">Sản phẩm</Th>
+    //             <Th color="main.1">Đơn giá</Th>
+    //             <Th color="main.1">Số lượng</Th>
+    //             <Th color="main.1">Thành tiền</Th>
+    //           </Tr>
+    //         </Thead>
+    //         <Tbody>
+    //           {cartFromApi.map((item) => (
+    //             <CartItem key={item.id} item={item} isConfirm />
+    //           ))}
+    //         </Tbody>
+    //       </Table>
+    //     </TableContainer>
+    //     <Flex direction="column" align="flex-end" gap={10} mt={8}>
+    //       <Flex gap={3} align="center">
+    //         <Text color="main.1" fontWeight={600} fontSize={18}>
+    //           Tổng cộng:
+    //         </Text>
+    //         <Text color="#1c78ce" fontWeight={700} fontSize={20} mt={0.5}>
+    //           {formatCurrency(totalPrice)}
+    //         </Text>
+    //       </Flex>
+    //     </Flex>
+    //   </Box>
+    // </Flex>
   );
 };
 
@@ -297,7 +297,7 @@ const PaymentComponent: React.FC = () => {
                     </Text>
                   </Text>
                   <Text pl={{ xs: 2, md: 4 }} fontWeight={500}>
-                    • Số tiền:{' '}
+                    {/* • Số tiền:{' '} */}
                     <Text as="span" fontWeight={700} color="sub.2">
                       {formatCurrency(totalPrice)}
                     </Text>
