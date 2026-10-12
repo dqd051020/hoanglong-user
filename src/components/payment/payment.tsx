@@ -297,7 +297,7 @@ const PaymentComponent: React.FC = () => {
                     </Text>
                   </Text>
                   <Text pl={{ xs: 2, md: 4 }} fontWeight={500}>
-                    {/* • Số tiền:{' '} */}
+                    • Số tiền:{' '}
                     <Text as="span" fontWeight={700} color="sub.2">
                       {formatCurrency(totalPrice)}
                     </Text>
@@ -330,7 +330,7 @@ const PaymentComponent: React.FC = () => {
                     Vui lòng thanh toán tiền mặt cho nhân viên giao hàng khi bạn nhận được hàng.
                   </Text>
                   <Text pl={{ xs: 2, md: 4 }} fontWeight={500}>
-                    {/* • Số tiền:{' '} */}
+                    • Số tiền:{' '}
                     <Text as="span" fontWeight={700} color="sub.2">
                       {formatCurrency(totalPrice)}
                     </Text>
