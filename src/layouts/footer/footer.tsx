@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
       href: '/tin-tuc'
     },
     {
-      title: 'Điều khoản sử dụng',
+      title: 'Điều khoản sử dụng và Bảo mật Thông tin',
       href: '/dieu-khoan-su-dung'
     }
   ];
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
       href: '/thanh-toan'
     },
     {
-      title: 'Chính sách đổi trả',
+      title: 'Chính sách đổi trả bảo hành vận chuyển',
       href: '/chinh-sach-doi-tra'
     },
     {

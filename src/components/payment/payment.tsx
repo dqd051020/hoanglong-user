@@ -180,11 +180,11 @@ const PaymentComponent: React.FC = () => {
   return (
     <Box pt={5}>
       <Breadcrumb items={[{ title: 'Thanh toán', href: '/thanh-toan' }]} />
-      <PageSection title="Thanh toán đơn hàng" />
+      <PageSection title="Hình thức thanh toán" />
 
       <Box mt={{ xs: 6, lg: 10 }}>
         <Flex direction="column" gap={{ xs: 2, lg: 14 }} pl={{ xs: 2, lg: 10 }}>
-          <Flex direction="column">
+          {/* <Flex direction="column">
             <Text fontWeight={600} fontSize={16}>
               • Thông tin khách hàng
             </Text>
@@ -246,7 +246,7 @@ const PaymentComponent: React.FC = () => {
                 <Textarea value={noteOrder} onChange={(e) => setNoteOrder(e.target.value)} />
               </Flex>
             </Flex>
-          </Flex>
+          </Flex> */}
 
           <ProductsInfo />
 
@@ -341,11 +341,11 @@ const PaymentComponent: React.FC = () => {
           </Flex>
         </Flex>
 
-        <Flex justify="center" mt={{ xs: 8, md: 14 }}>
+        {/* <Flex justify="center" mt={{ xs: 8, md: 14 }}>
           <Button colorScheme="green" onClick={() => setShowConfirm(true)} leftIcon={<FaCheckCircle />}>
             Xác nhận đặt hàng
           </Button>
-        </Flex>
+        </Flex> */}
       </Box>
 
       <ModalConfirm
