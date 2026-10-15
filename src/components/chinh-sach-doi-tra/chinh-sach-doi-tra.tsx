@@ -78,9 +78,67 @@ const ChinhsachComponent: React.FC = () => {
         - Quý khách có thể theo dõi trạng thái đơn hàng thông qua mã vận đơn được cung cấp sau khi giao hàng.
       </Text>
 
-      {/* 6. Liên hệ hỗ trợ */}
+{/* 6. Chính sách kiểm hàng */}
       <Text fontWeight="bold" fontSize="xl" mt={6} mb={2}>
-        6. Liên hệ hỗ trợ
+        6. Chính sách kiểm hàng
+      </Text>
+      <Text textAlign="justify" mb={2}>
+        - Quyền kiểm tra: Khách hàng có quyền mở gói hàng và kiểm tra ngoại quan sản phẩm (số lượng, bao bì, nhãn mác, tính nguyên vẹn) ngay tại thời điểm nhân viên giao hàng (Shipper) tới giao.<br />
+        - Hình thức kiểm hàng: Kiểm tra thực tế số lượng, chủng loại, tình trạng đóng gói sản phẩm. Lưu ý: Không hỗ trợ dùng thử hoặc bóc seal sản phẩm khi chưa thanh toán.<br />
+        - Xử lý khi phát hiện vi phạm/lỗi:
+      </Text>
+      <Text ml={4} mb={2}>
+        - Nếu hàng hóa không đúng chủng loại, mẫu mã, bị hư hỏng, đứt gãy hoặc hết hạn sử dụng: Khách hàng có quyền từ chối nhận hàng.<br />
+        - Khách hàng tiến hành chụp ảnh/quay video hiện trạng gói hàng và lập biên bản xác nhận với nhân viên giao hàng, đồng thời liên hệ Hotline: 0911191558 để được tư vấn và giao lại đơn mới.
+      </Text>
+
+      {/* 7. Nghĩa vụ của người bán và nghĩa vụ của khách hàng trong mỗi giao dịch */}
+      <Text fontWeight="bold" fontSize="xl" mt={6} mb={2}>
+        7. Nghĩa vụ của người bán và nghĩa vụ của khách hàng trong mỗi giao dịch
+      </Text>
+      <Text textAlign="justify" mb={2}>
+        Nghĩa vụ của Người bán (HTX SX & CB Nông sản Hoàng Long)
+      </Text>
+      <Text ml={4} mb={2}>
+        - Cung cấp thông tin đầy đủ, chính xác về sản phẩm, giá cả, phương thức thanh toán và giao nhận cho khách hàng.<br />
+
+        - Đảm bảo chất lượng sản phẩm đúng như cam kết, đạt tiêu chuẩn vệ sinh an toàn thực phẩm.<br />
+
+        - Đóng gói cẩn thận và giao hàng cho đơn vị vận chuyển đúng thời hạn.<br />
+
+        - Giải quyết các khiếu nại, hỗ trợ đổi trả sản phẩm lỗi theo chính sách đã công bố.<br />
+
+        - Xuất hóa đơn/chứng từ bán hàng theo đúng quy định pháp luật khi khách hàng yêu cầu.
+      </Text>
+
+      <Text textAlign="justify" mb={2}>
+        Nghĩa vụ của Khách hàng:
+      </Text>
+      <Text ml={4} mb={2}>
+        - Cung cấp chính xác và đầy đủ các thông tin giao nhận (Họ tên, số điện thoại, địa chỉ nhận hàng).<br />
+
+        - Thanh toán đầy đủ giá trị đơn hàng và phí vận chuyển (nếu có) theo thỏa thuận.<br />
+
+        - Trực tiếp kiểm tra hàng hóa khi nhận từ nhân viên giao hàng.<br />
+
+        - Thông báo ngay cho Người bán nếu phát hiện bất kỳ sự cố nào về sản phẩm hoặc đơn hàng.
+      </Text>
+
+      {/* 8. Phân định trách nhiệm của tổ chức cung ứng dịch vụ Logistics trong quá trình giao nhận */}
+      <Text fontWeight="bold" fontSize="xl" mt={6} mb={2}>
+        8. Phân định trách nhiệm của tổ chức cung ứng dịch vụ Logistics trong quá trình giao nhận
+      </Text>
+      <Text textAlign="justify" mb={2}>
+        - Trách nhiệm giao hàng: Đơn vị Logistics chịu trách nhiệm vận chuyển hàng hóa nguyên vẹn từ kho của Người bán đến địa chỉ nhận hàng của Khách hàng theo thời gian cam kết.<br />
+        - Trách nhiệm bảo quản: Đảm bảo điều kiện bảo quản sản phẩm trong suốt quá trình vận chuyển, không làm móp méo, mẻ vỡ hay ảnh hưởng đến chất lượng sản phẩm.<br />
+        - Trách nhiệm bồi thường: Chịu trách nhiệm bồi thường thiệt hại cho Khách hàng/Người bán nếu phát sinh tổn thất, mất mát hoặc hư hỏng sản phẩm trong quá trình vận chuyển do lỗi trực tiếp từ nhà vận chuyển.<br />
+        - Cung cấp chứng từ: Cung cấp chữ ký/biên bản xác nhận giao hàng hoặc mã vận đơn theo dõi cho các bên liên quan.
+
+      </Text>
+
+      {/* 9. Liên hệ hỗ trợ */}
+      <Text fontWeight="bold" fontSize="xl" mt={6} mb={2}>
+        9. Liên hệ hỗ trợ
       </Text>
       <Text textAlign="justify" mb={2}>
         Mọi thắc mắc hoặc yêu cầu liên quan đến đổi trả, xin vui lòng liên hệ:
