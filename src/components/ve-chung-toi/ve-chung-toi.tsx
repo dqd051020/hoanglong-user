@@ -41,6 +41,7 @@ const MyComponent: React.FC = () => {
             <Text><strong>Tên viết tắt:</strong> HTX SX & CB NÔNG SẢN HOÀNG LONG</Text>
             <Text><strong>Loại hình pháp lý:</strong> Hợp tác xã</Text>
             <Text><strong>Ngày cấp:</strong> 02/04/2024</Text>
+            <Text><strong>Nơi cấp:</strong> Phòng Tài Chính và Kế Hoạch huyện Nho Quan</Text>
             <Text>
               <strong>Tình trạng:</strong>{' '}
               <Text as="span" color="green.500" fontWeight="bold">
